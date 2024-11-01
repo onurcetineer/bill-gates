@@ -1,0 +1,14 @@
+.amount-container {
+    position: sticky;
+    top: -24px;
+}
+
+.amount {
+    text-align: center;
+    width: 100%;
+    padding: 24px 0;
+    color: var(--font-color1);
+    background: var(--primary-color);
+    background: var(--gradient-bg);
+    border-radius: 10px;
+}

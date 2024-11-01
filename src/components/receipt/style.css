@@ -1,0 +1,27 @@
+.receipt-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--font-color1);
+    border-radius: 10px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.receipt-container p {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.btn-sell-all {
+    background-color: var(--error-color);
+    color: var(--font-color1);
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
